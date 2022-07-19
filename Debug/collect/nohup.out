@@ -1,0 +1,121 @@
+VIDEOIO ERROR: V4L2: Pixel format of incoming image is unsupported by OpenCV
+Unable to stop the stream: Device or resource busy
+OpenCV Error: Unspecified error (GStreamer: unable to start pipeline
+) in cvCaptureFromCAM_GStreamer, file /home/root/workspace/opencv/opencv-3.3.0/modules/videoio/src/cap_gstreamer.cpp, line 881
+VIDEOIO(cvCreateCapture_GStreamer(CV_CAP_GSTREAMER_V4L2, reinterpret_cast<char *>(index))): raised OpenCV exception:
+
+/home/root/workspace/opencv/opencv-3.3.0/modules/videoio/src/cap_gstreamer.cpp:881: error: (-2) GStreamer: unable to start pipeline
+ in function cvCaptureFromCAM_GStreamer
+
+avaliable devices
+/dev/input/js0
+FreeMem:845.61M
+TotalMem:989.49M
+FreeMem:389.55M
+TotalMem:989.49M
+FreeMem:380.62M
+TotalMem:989.49M
+avaliable devices
+/dev/input/js0
+FreeMem:798.44M
+TotalMem:989.49M
+FreeMem:733.64M
+TotalMem:989.49M
+FreeMem:737.27M
+TotalMem:989.49M
+python: can't open file 'collect_': [Errno 2] No such file or directory
+avaliable devices
+/dev/input/js0
+FreeMem:796.53M
+TotalMem:989.49M
+FreeMem:727.57M
+TotalMem:989.49M
+FreeMem:731.44M
+TotalMem:989.49M
+avaliable devices
+/dev/input/js0
+FreeMem:792.38M
+TotalMem:989.49M
+FreeMem:541.43M
+TotalMem:989.49M
+FreeMem:541.21M
+TotalMem:989.49M
+avaliable devices
+/dev/input/js0
+FreeMem:789.24M
+TotalMem:989.49M
+FreeMem:621.05M
+TotalMem:989.49M
+FreeMem:624.86M
+TotalMem:989.49M
+avaliable devices
+/dev/input/js0
+FreeMem:820.48M
+TotalMem:989.49M
+FreeMem:724.15M
+TotalMem:989.49M
+FreeMem:728.00M
+TotalMem:989.49M
+avaliable devices
+/dev/input/js0
+FreeMem:802.31M
+TotalMem:989.49M
+FreeMem:164.46M
+TotalMem:989.49M
+FreeMem:158.00M
+TotalMem:989.49M
+avaliable devices
+/dev/input/js0
+FreeMem:800.69M
+TotalMem:989.49M
+FreeMem:793.68M
+TotalMem:989.49M
+FreeMem:797.39M
+TotalMem:989.49M
+avaliable devices
+/dev/input/js0
+FreeMem:806.63M
+TotalMem:989.49M
+FreeMem:587.63M
+TotalMem:989.49M
+FreeMem:578.07M
+TotalMem:989.49M
+avaliable devices
+/dev/input/js0
+FreeMem:801.59M
+TotalMem:989.49M
+FreeMem:691.85M
+TotalMem:989.49M
+FreeMem:695.48M
+TotalMem:989.49M
+VIDEOIO ERROR: V4L2: Pixel format of incoming image is unsupported by OpenCV
+Unable to stop the stream: Device or resource busy
+
+(python3:2519): GStreamer-CRITICAL **: 
+Trying to dispose element pipeline0, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+OpenCV Error: Unspecified error (GStreamer: unable to start pipeline
+) in cvCaptureFromCAM_GStreamer, file /home/root/workspace/opencv/opencv-3.3.0/modules/videoio/src/cap_gstreamer.cpp, line 881
+VIDEOIO(cvCreateCapture_GStreamer(CV_CAP_GSTREAMER_V4L2, reinterpret_cast<char *>(index))): raised OpenCV exception:
+
+/home/root/workspace/opencv/opencv-3.3.0/modules/videoio/src/cap_gstreamer.cpp:881: error: (-2) GStreamer: unable to start pipeline
+ in function cvCaptureFromCAM_GStreamer
+
+Traceback (most recent call last):
+  File "collect_road_data.py", line 112, in <module>
+    front_camera = Camera()
+  File "../camera.py", line 9, in __init__
+    self.stream = cv2.VideoCapture(src)
+KeyboardInterrupt
+avaliable devices
+/dev/input/js0
+FreeMem:743.06M
+TotalMem:989.49M
+FreeMem:683.18M
+TotalMem:989.49M
+FreeMem:683.67M
+TotalMem:989.49M
